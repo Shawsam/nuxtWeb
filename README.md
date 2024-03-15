@@ -120,4 +120,20 @@ Nuxt3
 └── tsconfig.json                 # TS编译的配置
 
 
-## 2.
+## 2.处理css 
+   ### 使用sass
+   安装sass pnpm add -D sass
+   ### 样式重置
+   reset.css
+   ### 全局变量
+   variables.scss
+
+
+## 3.配置 ESLint 和 Prettier，保存自动格式化
+   ### 安装 ESLint 和 Prettier  并创建.eslintrc.cjs  .prettierrc.cjs
+   ```bash
+   pnpm add -D eslint eslint-plugin-vue @typescript-eslint/parser @typescript-eslint/eslint-plugin
+   pnpm add -D prettier eslint-config-prettier eslint-plugin-prettier   
+   ```
+   ### vscode自动保存配置
+   项目根目录创建.vscode文件夹，在改文件夹下新建settings.json文件，
