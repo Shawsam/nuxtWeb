@@ -137,3 +137,10 @@ Nuxt3
    ```
    ### vscode自动保存配置
    项目根目录创建.vscode文件夹，在改文件夹下新建settings.json文件，
+
+
+## 4.发起网络请求 
+   ### useFetch useAsyncData
+   useFetch useFetch 是 useAsyncData 的语法糖 是在组件中请求数据最直接的方式
+   ### useLazyFetch useLazyAsyncData
+   lazy方式 不阻塞路由切换
