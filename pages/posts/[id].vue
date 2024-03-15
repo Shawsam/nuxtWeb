@@ -1,5 +1,7 @@
 <template>
-    <p>参数：{{ id }}</p>
+    <div class="container">
+      <p>参数：{{ id }}</p>
+    </div>
 </template>
 
 <script setup lang="ts">

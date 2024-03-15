@@ -74,7 +74,7 @@ bun run preview
 
 Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
 
-## 目录结构说明
+## 1.目录结构
 Nuxt3
 ├── .husky                        # Git hooks 工具配置
 ├── .vscode                       # vscode配置
@@ -118,3 +118,6 @@ Nuxt3
 ├── README.md                     # 项目说明
 ├── tailwind.config.js            # tailwind配置
 └── tsconfig.json                 # TS编译的配置
+
+
+## 2.
