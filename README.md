@@ -129,7 +129,7 @@ Nuxt3
    variables.scss
 
 
-## 3.配置 ESLint 和 Prettier，保存自动格式化
+## 3.配置 ESLint 和 Prettier，vscode保存自动格式化
    ### 安装 ESLint 和 Prettier  并创建.eslintrc.cjs  .prettierrc.cjs
    ```bash
    pnpm add -D eslint eslint-plugin-vue @typescript-eslint/parser @typescript-eslint/eslint-plugin
